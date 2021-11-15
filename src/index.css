@@ -93,7 +93,32 @@ grid-column-start:1;
 
 .suggestedUserDiv {
   float: right;
+  background-color:#785c8f;
   color:#fff;
   margin:0px 10px 0 0;
+  padding:10px 30px;
+  border-radius:10px;
+}
+
+.friendFaces {
+  float:left;
+  min-height:150px;
+  grid-column-start:1;
+}
+
+.friendFaces img {
+  margin-top: 20px;
+  width:80px;
+  border-radius:10px;
+}
+
+.friendInfo {
+  float:right;
+  grid-column-start:2;
+}
+
+.friends {
+  display:grid;
+  position:inherit;
 }
 
