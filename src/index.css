@@ -11,3 +11,89 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.bodyContainer {
+  background-color:#a992bb;
+  width: 80%;
+  padding:2% 0 3% 3%;
+  display: grid;
+  grid-template-areas:
+  main main main;
+  grid-gap:0px;
+}
+
+.gridItem1 {
+padding:10px;
+grid-column-start:1;
+}
+.gridItem2 {
+  padding:10px;
+  grid-column-start:3;
+}
+.gridItem3 {
+  padding:10px;
+  grid-column-start:2;
+}
+
+.container {
+  width: 80%;
+  padding: 20px;
+}
+
+#searchBar {
+  border-radius:20px;
+  margin:0 20px;
+  padding:3px;
+  float: right;
+}
+.navButton {
+  padding:3px;
+  margin: 0 7px;
+}
+
+.navButton {
+  float:left;
+}
+
+#obey {
+  display:inline-block;
+}
+
+#userInfoContainer {
+  min-height:175px;
+  width:300px;
+  background: linear-gradient(to bottom, rgb(239, 229, 247) 50%, #785c8f 50%)
+}
+
+#userInfoBlock {
+  padding-top:25px;
+}
+
+#userPortrait {
+  width:100px;
+  border-radius:20px;
+  float:left;
+  padding:10px;
+}
+
+#userName {
+  float:left;
+  padding:50px 0 0 10px;
+  color:#fff;
+}
+
+#userLinksDiv {
+  float:left;
+}
+
+.userButton {
+  margin-right: 22px;
+  margin-left: 14px;
+}
+
+.suggestedUserDiv {
+  float: right;
+  color:#fff;
+  margin:0px 10px 0 0;
+}
+

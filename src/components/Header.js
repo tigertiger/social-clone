@@ -7,9 +7,13 @@ import obeyImage from "./../img/obey.jpeg";
 function Header(){
   return (
     <React.Fragment>
-      <img src={obeyImage} alt="they live politician" />
-      <Nav />
-      <Search />
+      <div class="container">
+        <img src={obeyImage} alt="they live politician" height="400" id="obey" />
+        <Nav />
+        <Search />
+        <br /><br />
+        <hr />
+      </div>
     </React.Fragment>
   );
 }
