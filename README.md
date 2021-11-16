@@ -3,5 +3,4 @@
 ### "We could be pets, we could be food, but all we really are is livestock."
 
 
-![component diagram](/social-clone/src/img/component-diagram.png)
-
+<img src="https://raw.githubusercontent.com/tigertiger/social-clone/main/src/img/component-diagram.png"/>
