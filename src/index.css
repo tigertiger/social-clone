@@ -26,13 +26,13 @@ code {
 padding:10px;
 grid-column-start:1;
 }
-.gridItem2 {
-  padding:10px;
-  grid-column-start:3;
-}
 .gridItem3 {
   padding:10px;
   grid-column-start:2;
+}
+.gridItem2 {
+  padding:10px;
+  grid-column-start:3;
 }
 
 .container {
@@ -100,6 +100,22 @@ grid-column-start:1;
   border-radius:10px;
 }
 
+.friendFacesPosts {
+  grid-column-start:1;
+  padding:0 20px 0 0;
+}
+
+.friendFacesPosts img {
+  margin-top: 20px;
+  width:80px;
+  border-radius:10px;
+
+}
+
+.friendInfoPosts {
+  grid-column-start:2;
+}
+
 .friendFaces {
   float:left;
   min-height:150px;
@@ -122,3 +138,15 @@ grid-column-start:1;
   position:inherit;
 }
 
+#userSearchBar {
+  border-radius:20px;
+}
+
+.feed {
+  background-color: rgb(239, 229, 247);
+  padding: 30px;
+}
+
+#userSearchBar {
+  padding-right: 200px;
+}

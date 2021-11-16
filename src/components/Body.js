@@ -1,6 +1,6 @@
 import React from "react";
 import UserInfo from "./UserInfo";
-// import Newsfeed from "./Newsfeed";
+import Newsfeed from "./Newsfeed";
 import Suggestions from "./Suggestions";
 
 function Body(){
@@ -10,12 +10,11 @@ function Body(){
         <div class="gridItem1">
           <UserInfo />
         </div>
+        <div class="gridItem3">
+          <Newsfeed />
+        </div>
         <div class="gridItem2">
           <Suggestions />
-        </div>
-        <div class="gridItem3">
-        {/* <Newsfeed /> */}
-          <div>Hi</div>
         </div>
       </div>
     </React.Fragment>

@@ -8,7 +8,6 @@ function App(){
     <React.Fragment>
       <div class="container">
         <Header />
-        <div>Hello</div>
         <Body />
       </div>
     </React.Fragment>
